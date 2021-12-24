@@ -2,7 +2,7 @@
 
 
 
-## 🧾 Descrição
+## 🧾 Description
 
 
 
@@ -23,7 +23,7 @@ GNU GENERAL PUBLIC LICENSE V3
 
 Licensed under the GPLv3: https://opensource.org/licenses/gpl-3.0
 
-## Created By:
+## Created by:
 
 
 
