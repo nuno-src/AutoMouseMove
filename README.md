@@ -19,7 +19,7 @@ More options: Run AMM.py
 ## License
 
 ---
-GNU GENERAL PUBLIC LICENSE V3\
+GNU GENERAL PUBLIC LICENSE V3 \
 
 Licensed under the GPLv3: https://opensource.org/licenses/gpl-3.0
 
