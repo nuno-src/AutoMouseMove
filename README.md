@@ -1,6 +1,6 @@
 # AMM - Auto Mouse Move
 
-------
+
 
 ## 🧾 Descrição
 
