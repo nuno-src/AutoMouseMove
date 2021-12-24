@@ -12,7 +12,7 @@
 
 
 
-Simple mode: Just run AMMV1.py 
+Simple mode: Just run AMMV1.py (Bomb Crypto)
 
 More options: Run AMM.py
 
