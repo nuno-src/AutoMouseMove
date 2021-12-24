@@ -19,6 +19,7 @@ def basic():
     print("\nAMM está em execução...")
 
     while True:
+        time.sleep(40)
         mouse.move(150, 350, absolute=True, duration=2)
         print("Posição: 150:350")
         time.sleep(110)
@@ -38,7 +39,7 @@ def basic():
         print("Posição: 1020:380")
         mouse.move(800, 617, absolute=True, duration=3)
         print("Posição: 800:617")
-        time.sleep(200)
+        time.sleep(180)
         #break
 
     print("AMM has stoped")
