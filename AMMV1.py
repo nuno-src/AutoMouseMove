@@ -25,6 +25,11 @@ def basicBC():
         mouse.click('left')
         print("Left Click")
         time.sleep(110)
+        mouse.move(770, 680, absolute=True, duration=3) # New Map
+        print("Posição: ",mouse.get_position())
+        mouse.click('left')
+        print("Left Click")
+        time.sleep(50)
         mouse.move(1030,350, absolute=True, duration=2)
         print("Posição: ", mouse.get_position())
         time.sleep(160)
@@ -33,6 +38,11 @@ def basicBC():
         time.sleep(50)
         mouse.move(800, 617, absolute=True, duration=3)
         print("Posição: ", mouse.get_position())
+        mouse.click('left')
+        print("Left Click")
+        time.sleep(120)
+        mouse.move(770, 680, absolute=True, duration=3) # New Map
+        print("Posição: ",mouse.get_position())
         mouse.click('left')
         print("Left Click")
         time.sleep(160)
