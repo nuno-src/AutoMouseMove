@@ -7,8 +7,17 @@
 
 
  This Python script was created to avoid inactivity disconnection in Bomcrypto.
+ 
+ 
+## ⚠Requirements for running:
 
-### How to run:
+In order to run this script you must have [Python](https://www.python.org) instaled in your machine.
+
+### Required libraries:
+
+- mouse library (pip install mouse)
+
+## How to run:
 
 
 Simple mode: Just run AMMV1.py (Bomb Crypto)
