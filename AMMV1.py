@@ -16,12 +16,25 @@ def basicBC():
 
     print("\nAMM está em execução...")
 
+
+    # localtime = time.localtime()
+    # result = time.strftime("%H:%M:%S", localtime)
+    # print(result)
+
+
+
+
     while True:
         time.sleep(5)
-        print("Posição atual do rato: ", mouse.get_position())
+        localtime = time.localtime()
+        result = time.strftime("%H:%M:%S", localtime)
+        print(result)
+        print("Hora:", result, "| Posição atual do rato: ", mouse.get_position())
         time.sleep(10)
         mouse.move(150, 350, absolute=True, duration=2)
-        print("Posição: ", mouse.get_position())
+        localtime = time.localtime()
+        result = time.strftime("%H:%M:%S", localtime)
+        print("Hora:", result, "| Posição: ", mouse.get_position())
         mouse.click('left')
         print("Left Click")
         time.sleep(110)
