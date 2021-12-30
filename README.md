@@ -1,6 +1,6 @@
 # AMM - Auto Mouse Move
 
-![GitHub all releases](https://img.shields.io/github/downloads/nunocardoso7/Auto-Mouse-Move/total?logo=GitHub)
+![GitHub all releases](https://img.shields.io/github/downloads/nunocardoso7/AutoMouseMove/total?logo=GitHub)
 
 ## 🧾 Description
 
