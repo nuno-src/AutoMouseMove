@@ -1,5 +1,7 @@
 import mouse
 import time
+import logging
+
 
 print("""
 
@@ -11,6 +13,12 @@ print("""
 
 """)
 print("Auto Mouse Move")
+
+
+logging.basicConfig(filename='AMMLogs', level=logging.WARNING,
+                    format='%(asctime)s:%(levelname)s:%(message)s'
+
+
 
 def basic():
 
@@ -62,7 +70,7 @@ def basic():
 
     print("AMM has stoped")
 
-basic()
+logging.WARNING(basic())
 
 
 
