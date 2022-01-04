@@ -16,7 +16,7 @@ print("Auto Mouse Move")
 
 
 logging.basicConfig(filename='AMMLogs', level=logging.WARNING,
-                    format='%(asctime)s:%(levelname)s:%(message)s'
+                    format='%(asctime)s:%(levelname)s:%(message)s')
 
 
 
