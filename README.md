@@ -9,7 +9,7 @@
 
 
 
- This Python script was created to avoid inactivity disconnection in Bomcrypto.
+ This Python script was created to avoid inactivity disconnection in Bomb crypto.
  
  
 ## ⚠Requirements for running:
