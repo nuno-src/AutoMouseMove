@@ -1,6 +1,5 @@
 import mouse
 import time
-import logging
 
 
 print("""
@@ -15,8 +14,7 @@ print("""
 print("Auto Mouse Move")
 
 
-logging.basicConfig(filename='AMMLogs', level=logging.WARNING,
-                    format='%(asctime)s:%(levelname)s:%(message)s')
+
 
 
 
@@ -33,18 +31,18 @@ def basic():
         mouse.click('right')
         print("Right Click")
         time.sleep(110)
-        mouse.move(1030,350, absolute=True, duration=2)
+        mouse.move(1030, 350, absolute=True, duration=2)
         print("Posição: ",mouse.get_position())
         time.sleep(140)
-        mouse.move(100,400, absolute=True, duration=2)
-        print("Posição: 100:400")
+        mouse.move(100, 400, absolute=True, duration=2)
+        print("Posição: ",mouse.get_position())
         time.sleep(145)
-        mouse.move(800,617, absolute=True, duration=3)
+        mouse.move(800, 617, absolute=True, duration=3)
         print("Posição: ",mouse.get_position())
         mouse.click('left')
         print("Left Click")
         time.sleep(100)
-        mouse.move(220, 967, absolute=True, duration=2)
+        mouse.move(220, 600, absolute=True, duration=2)
         print("Posição: ",mouse.get_position())
         time.sleep(20)
         mouse.move(345, 222, absolute=True, duration=2) 
@@ -70,7 +68,7 @@ def basic():
 
     print("AMM has stoped")
 
-logging.WARNING(basic())
+basic()
 
 
 
