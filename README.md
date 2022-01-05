@@ -23,7 +23,7 @@ In order to run this script you must have [Python](https://www.python.org) insta
 ## How to run:
 
 
-Simple mode: Just run AMMV1.py or AMM - Tested.py (Bomb Crypto)
+Simple mode: Just run AMMV1.py or AMM - Legacy.py (Bomb Crypto)
 
 More options: Run AMM.py
  
