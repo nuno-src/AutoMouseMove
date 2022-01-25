@@ -22,6 +22,9 @@ def basic():
 
     while True:
         time.sleep(5)
+        localtime = time.localtime()
+        time_formated = time.strftime("%H:%M:%S", localtime)
+        print("Time:", time_formated)
         print("Current mouse position: ", mouse.get_position())
         time.sleep(10)
         mouse.move(150, 350, absolute=True, duration=2)
@@ -51,6 +54,9 @@ def basicBC():
 
     while True:
         time.sleep(5)
+        localtime = time.localtime()
+        time_formated = time.strftime("%H:%M:%S", localtime)
+        print("Time:", time_formated)
         print("Current mouse position: ", mouse.get_position())
         time.sleep(10)
         mouse.move(150, 350, absolute=True, duration=2)
@@ -87,12 +93,37 @@ def basicBC():
 
 
 
+
+def ativar():
+
+    # Ativar heros inativos
+    time.sleep(5)
+    pyautogui.click('/images/lista-heros.PNG')
+    time.sleep(2)
+    pyautogui.click('/images/lista2.PNG')
+    time.sleep(2)
+    pyautogui.click('/images/botao-all.PNG')
+    time.sleep(2)
+    pyautogui.click('/images/botao-all.PNG')
+    time.sleep(2)
+    pyautogui.click('/images/exit.PNG')
+    time.sleep(2)
+    pyautogui.click('/images/bcoin.PNG')
+    time.sleep(10)
+
+
+
+
 def basic2BC():
 
     print("\nAMM is running...")
 
+    count = 0
     while True:
         time.sleep(5)
+        localtime = time.localtime()
+        time_formated = time.strftime("%H:%M:%S", localtime)
+        print("Time:", time_formated)
         print("Current mouse position: ", mouse.get_position())
         time.sleep(10)
         mouse.move(150, 350, absolute=True, duration=2)
@@ -123,12 +154,31 @@ def basic2BC():
         mouse.click('left')
         print("Left Click")
         time.sleep(60)
+        # Ativar heros inativos
+        if count == 14:
+            ativar()
+        elif count == 24:
+            ativar()
+        elif count == 36:
+            ativar()
+        else:
+            pass
+
+        time.sleep(60)
         mouse.move(1020, 380, absolute=True, duration=2)
+        print("Position: ", mouse.get_position())
+        time.sleep(60)
+        mouse.move(1010, 390, absolute=True, duration=2)
+        print("Position: ", mouse.get_position())
+        time.sleep(60)
+        mouse.move(800, 400, absolute=True, duration=2)
         print("Position: ", mouse.get_position())
         mouse.move(800, 617, absolute=True, duration=3)
         print("Position: ", mouse.get_position())
         time.sleep(160)
         print("\nCycle finished! Starting over...")
+        count += 1
+        print("Current count: ", count)
         #break
 
     print("AMM has stoped")

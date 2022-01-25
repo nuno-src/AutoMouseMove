@@ -26,7 +26,7 @@ def basic():
         time.sleep(5)
         localtime = time.localtime()
         time_formated = time.strftime("%H:%M:%S", localtime)
-        print(time_formated)
+        print("Time:", time_formated)
         print("Posição do rato atual: ",mouse.get_position())
         time.sleep(30)
         mouse.move(150, 350, absolute=True, duration=2)
