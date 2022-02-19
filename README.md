@@ -19,6 +19,9 @@ In order to run this script you must have [Python](https://www.python.org) insta
 ### Required libraries:
 
 - mouse library (pip install mouse)
+- pyautogui (pip install pyautogui) \
+or 
+- pip install -r requeriments.txt
 
 ## How to run:
 
