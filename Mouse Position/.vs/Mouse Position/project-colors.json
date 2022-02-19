@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c7737055-2477-4497-8f05-0304b9b20e03": {
+      "ProjectGuid": "c7737055-2477-4497-8f05-0304b9b20e03",
+      "DisplayName": "Mouse Position",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

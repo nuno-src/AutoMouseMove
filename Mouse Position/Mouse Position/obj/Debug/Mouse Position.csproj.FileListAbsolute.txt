@@ -1,0 +1,11 @@
+C:\Users\nunoc\Info Técnica\Programação\C#\programas\Mouse Position\Mouse Position\bin\Debug\Mouse Position.exe.config
+C:\Users\nunoc\Info Técnica\Programação\C#\programas\Mouse Position\Mouse Position\bin\Debug\Mouse Position.exe
+C:\Users\nunoc\Info Técnica\Programação\C#\programas\Mouse Position\Mouse Position\bin\Debug\Mouse Position.pdb
+C:\Users\nunoc\Info Técnica\Programação\C#\programas\Mouse Position\Mouse Position\obj\Debug\Mouse Position.csproj.AssemblyReference.cache
+C:\Users\nunoc\Info Técnica\Programação\C#\programas\Mouse Position\Mouse Position\obj\Debug\Mouse Position.csproj.SuggestedBindingRedirects.cache
+C:\Users\nunoc\Info Técnica\Programação\C#\programas\Mouse Position\Mouse Position\obj\Debug\Mouse_Position.Form1.resources
+C:\Users\nunoc\Info Técnica\Programação\C#\programas\Mouse Position\Mouse Position\obj\Debug\Mouse_Position.Properties.Resources.resources
+C:\Users\nunoc\Info Técnica\Programação\C#\programas\Mouse Position\Mouse Position\obj\Debug\Mouse Position.csproj.GenerateResource.cache
+C:\Users\nunoc\Info Técnica\Programação\C#\programas\Mouse Position\Mouse Position\obj\Debug\Mouse Position.csproj.CoreCompileInputs.cache
+C:\Users\nunoc\Info Técnica\Programação\C#\programas\Mouse Position\Mouse Position\obj\Debug\Mouse Position.exe
+C:\Users\nunoc\Info Técnica\Programação\C#\programas\Mouse Position\Mouse Position\obj\Debug\Mouse Position.pdb
